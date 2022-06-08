@@ -5,7 +5,7 @@ from airflow.operators.dummy_operator import DummyOperator
 from datetime import datetime
 import os
 
-
+#airflow didn't work, need to fix it
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
